@@ -1,0 +1,556 @@
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    float: left;
+    width: 100%;
+    font-family: poppins;
+    background-color: transparent;
+    color: white;
+    position: fixed;
+}
+
+.bgColor {
+    background-color: black;
+}
+
+.navbar-L {
+    float: left;
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.navbar-R {
+    float: right;
+    width: 50%;
+}
+
+li {
+    display: inline;
+    transition: .4s ease-in;
+    padding: 0.5em;
+}
+
+ul.NBR_UL li {
+    margin-left: 4.5em;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+ul.NBR_UL li:hover {
+    background-color: white;
+    font-size: bold;
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px whitesmoke, 0px 0px 25px whitesmoke, 0px 0px 50px whitesmoke;
+}
+
+ul.NBL_UL li {
+    font-size: 18px;
+}
+
+video.video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.Content {
+    border: solid 2px white;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    transition: .4s ease-in;
+}
+
+.Content:hover {
+    box-shadow: 0px 0px 4px whitesmoke, 0px 0px 20px whitesmoke, 0px 0px 40px whitesmoke;
+    background-color: black;
+}
+
+.Content h1 {
+    color: #E7F5F2;
+}
+
+button {
+    padding: 0.5em;
+    font-family: 'Poppins';
+    background-color: transparent;
+    border: white solid 1px;
+    color: white;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+
+.Ctn-btn:hover {
+    background-color: white;
+    font-size: bold;
+    color: black;
+    box-shadow: 0px 0px 5px whitesmoke, 0px 0px 25px whitesmoke, 0px 0px 50px whitesmoke;
+}
+
+.Content p {
+    font-weight: 700;
+    color: aliceblue;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 1em;
+    left: 5em;
+}
+
+.about {
+    margin-top: 120vh;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: linear-gradient(0deg, #c4e0e5, #c4e0);
+    font-family: 'Poppins';
+}
+
+span {
+    color: #EF5B0C;
+}
+
+.about h1 {
+    margin-top: 4em;
+}
+
+.about p {
+    text-align: inherit;
+    width: 100%;
+    font-weight: 600;
+   
+}
+
+.eduaction {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+}
+
+.Certification {
+    float: left;
+    width: 49%;
+    text-align: initial;
+    margin-left: 5em;
+}
+
+.Certification ul {
+    text-align: start;
+    margin-left: 5em;
+}
+
+.Certification h2 {
+    text-align: center;
+}
+
+.Graduation {
+    float: right;
+    width: 44%;
+    text-align: initial;
+    line-height: 0.8em;
+}
+
+.Graduation h2 {
+    margin-left: 2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.4em;
+}
+
+.Page-center {
+    margin: auto;
+    max-width: 90%;
+}
+
+.hobbies {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+}
+
+.h-img {
+    float: left;
+    width: 50%;
+    margin-left: 5em;
+}
+
+img.hob-img {
+    width: 60%;
+    border-radius: 100px;
+}
+
+.h-cont {
+    float: right;
+    width: 50%;
+}
+
+.h-cont li {
+    display: inherit;
+}
+
+.h-cont {
+    float: right;
+    width: 43%;
+    text-align: initial;
+}
+
+.skills {
+    float: left;
+    width: 100%;
+    background-color: #c4e0e5;
+    font-family: poppins;
+    padding-top: 2em;
+    height: 100vh;
+    font-weight: 600;
+    padding-bottom: 4   em;
+}
+
+.skills-ex {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.skills-ex h2 {
+    text-align: center;
+}
+
+.img-skill {
+    height: 25vh;
+    width: 100%;
+    float: left;
+    background-color: #c4e0e5;
+
+}
+
+.html {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 380;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+
+}
+
+.css {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 350;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+}
+
+.js {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+}
+
+.bs {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 280;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+}
+
+.sql {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 240;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+
+}
+
+.dj {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 220;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+}
+
+.ux {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+}
+
+.React {
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    stroke: url(#GradientColor);
+}
+
+.htmlsvg {
+    float: left;
+    width: 23%;
+    margin-left: 5em;
+
+}
+
+.csssvg {
+    float: left;
+    width: 23%;
+    margin-left: 3em;
+
+}
+
+.bssvg {
+    float: right;
+    width: 19%;
+    margin-left: 2em;
+
+}
+
+
+.jssvg {
+    float: left;
+    width: 20%;
+    margin-left: 2em;
+
+}
+
+.img-skill h3 {
+    margin-left: 3em;
+    position: relative;
+    top: 4.5em; 
+}
+.Contact{
+    float: left;
+    width: 100%;
+    font-family: poppins;
+    background-color: black;
+color:white;
+padding-top: 2em;
+text-align: center;
+}
+.phone{
+    float:left;
+    width:33.3%;
+    text-align: initial;
+}
+.email{
+    float:left;
+    width:26%;
+    text-align: initial;
+}
+.address{
+    float:right;
+    width:33.3%;
+    text-align: initial;
+}
+.contact h2{
+    text-align: center;
+}
+i.fa.fa-solid.fa-phone {
+    border: solid 1px white;
+    padding: 1em;
+    border-radius: 50%;
+}
+i.fa.fa-solid.fa-envelope  {
+    border: solid 1px white;
+    padding: 1em;
+    border-radius: 50%;
+}
+.address i {
+    padding: 1em;
+    cursor: pointer;
+    color: white;
+}
+.address a:hover{
+    text-decoration: none;
+    border: solid 1px #EF5B0C;
+    border-radius: 20px;
+}
+.email a{
+    color: white;
+}
+
+@media (max-width:768px){
+    video.video {
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        right: 0;
+        object-fit: cover;
+    }
+    .navbar-L {
+        float: left;
+        width: 100%;
+    }
+    .navbar-R {
+    float: right;
+    width: 100%;
+}
+.about {
+    margin-top: 120vh;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: white;
+    font-family: 'Poppins';
+}
+.Certification ul {
+    text-align: inherit;
+}
+.Certification {
+    float: left;
+    width: 100%;
+    margin-left: 0em;
+}
+.eduaction {
+    float: left;
+    width: 100%;
+    font-weight: 600;
+}
+.Graduation {
+    float: right;
+    width: 70%;
+    line-height: 0.8em;
+    text-align: initial;
+}
+
+.about p {
+  
+    width: 100%;
+    font-weight: 600;
+}
+.h-img {
+    float: left;
+    width: 100%;
+    margin-left: 0em;
+    
+}
+.h-cont {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+.skills {
+    float: left;
+    width: 100%;
+    background-color: #c4e0e5;
+    font-family: poppins;
+    padding-top: 2em;
+    font-weight: 600;
+}
+.skills-ex {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.Contact {
+    float: left;
+    width: 100%;
+    font-family: poppins;
+    background-color: black;
+    color: white;
+    padding-top: 2em;
+    text-align: center;
+    position: relative;
+    margin-top: 230vh;
+}
+.phone {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.email {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.address {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+.img-skill {
+    width: 100%;
+    float: left;
+    background-color: #c4e0e5;
+   height:100vh;
+}
+.htmlsvg {
+    float: left;
+    width: 75%;
+
+}
+.csssvg {
+    float: left;
+    width: 84%;
+    
+}
+.bssvg {
+    float: right;
+    width: 100%;
+   
+}
+.jssvg {
+    float: left;
+    width: 87%;
+   
+}
+.div-mb {
+    width: 100%;
+    float: left;
+    background-color: #c4e0e5;
+    text-align: center;
+}
+.div-im2{
+    float: left;
+    width: 100%;
+    background-color: #c4e0e5;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
