@@ -465,7 +465,7 @@ button {
     transition: .4s ease-in;
 }
 .about {
-    margin-top: 120vh;
+    margin-top: 100vh;
     width: 100%;
     float: left;
     text-align: center;
@@ -578,7 +578,7 @@ button {
     padding-top: 2em;
     text-align: center;
     position: relative;
-    margin-top: 230vh;
+    margin-top: 200vh;
 }
 .htmlsvg {
     float: left;
