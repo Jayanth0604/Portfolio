@@ -578,7 +578,7 @@ button {
     padding-top: 2em;
     text-align: center;
     position: relative;
-    margin-top: 200vh;
+    margin-top: 187vh;
 }
 .htmlsvg {
     float: left;
@@ -602,6 +602,21 @@ button {
 }
 .bgColor {
     background-color: black;
+}
+.phone {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.email {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.address {
+    float: right;
+    width: 100%;
+    text-align: center;
 }
     /* video.video {
         position: fixed;
