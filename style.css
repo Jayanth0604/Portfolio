@@ -15,6 +15,7 @@ html {
     background-color: transparent;
     color: white;
     position: fixed;
+    z-index: 3;
 }
 
 .bgColor {
@@ -129,7 +130,7 @@ button {
     width: 100%;
     float: left;
     text-align: center;
-    background: linear-gradient(0deg, #c4e0e5, #c4e0);
+    background: white;
     font-family: 'Poppins';
 }
 
@@ -212,6 +213,8 @@ img.hob-img {
 
 .h-cont li {
     display: inherit;
+    text-align: left;
+    margin-left: 2em;
 }
 
 .h-cont {
@@ -418,6 +421,7 @@ i.fa.fa-solid.fa-envelope  {
         background-color: transparent;
         color: white;
         position: fixed;
+        z-index: 3;
     }
     .navbar-L {
         float: left;
