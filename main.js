@@ -7,6 +7,6 @@ function changeBg(){
     navbar.classList.add('bgColor')
    }
 }
-
+hi
 window.addEventListener('scroll',changeBg);
 
