@@ -132,6 +132,7 @@ button {
     text-align: center;
     background: white;
     font-family: 'Poppins';
+
 }
 
 span {
@@ -195,163 +196,87 @@ span {
     font-weight: 600;
 }
 
-.h-img {
-    float: left;
-    width: 50%;
-    margin-left: 5em;
-}
 
-img.hob-img {
-    width: 60%;
-    border-radius: 100px;
-}
 
-.h-cont {
-    float: right;
-    width: 50%;
-}
 
-.h-cont li {
+
+.Certification li {
     display: inherit;
     text-align: left;
-    margin-left: 2em;
+    margin-left: 4em;
+}
+.Graduation li {
+    display: inherit;
+    text-align: left;
+    margin-left: -2em;
+}
+.projects {
+    float: left;
+    width: 99%;
+    text-align: center;
+}
+img.img-sc {
+    width: 50%;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin-left: 10em;
 }
 
-.h-cont {
-    float: right;
-    width: 43%;
-    text-align: initial;
-}
+
 
 .skills {
     float: left;
     width: 100%;
+    background-color: white;
+    font-family: poppins;
+    
+    font-weight: 600;
+}
+
+.whaticando{
+    float: left;
+    width: 100%;
     background-color: #c4e0e5;
     font-family: poppins;
-    padding-top: 2em;
-    height: 100vh;
-    font-weight: 600;
-    padding-bottom: 4   em;
+    
 }
-
-.skills-ex {
-    width: 100%;
+.services {
     float: left;
+    width: 50%;
     text-align: center;
+    
 }
-
-.skills-ex h2 {
-    text-align: center;
-}
-
-.img-skill {
-    height: 25vh;
-    width: 100%;
-    float: left;
-    background-color: #c4e0e5;
-
-}
-
-.html {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 380;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-
-}
-
-.css {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 350;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-}
-
-.js {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 300;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-}
-
-.bs {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 280;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-}
-
-.sql {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 240;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-
-}
-
-.dj {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 220;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-}
-
-.ux {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 360;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-}
-
-.React {
-    fill: none;
-    stroke-width: 20px;
-    stroke-dasharray: 320;
-    stroke-dashoffset: 0;
-    stroke: url(#GradientColor);
-}
-
-.htmlsvg {
-    float: left;
-    width: 23%;
-    margin-left: 5em;
-
-}
-
-.csssvg {
-    float: left;
-    width: 23%;
-    margin-left: 3em;
-
-}
-
-.bssvg {
+.Tech{
     float: right;
-    width: 19%;
-    margin-left: 2em;
-
+    width: 50%;
+    text-align: center;
+    
 }
-
-
-.jssvg {
-    float: left;
+.whaticando h1{
+    text-align: center;
+}
+.whaticando h2{
+    color: #0A4D68;
+}
+.whaticando h4{
+   text-align: center;
+}
+.whaticando p {
+    width: 40%;
+    text-align: center;
+    padding-left: 15em;
+}
+.wicd-img{
     width: 20%;
-    margin-left: 2em;
-
+    border-radius: 70px;
+   
+    background-color: white;
+}
+span.bold {
+    color: black;
+    font-weight: 700;
 }
 
-.img-skill h3 {
-    margin-left: 3em;
-    position: relative;
-    top: 4.5em; 
-}
 .Contact{
     float: left;
     width: 100%;
@@ -476,6 +401,10 @@ button {
     background: white;
     font-family: 'Poppins';
 }
+.skills p {
+    margin-left: 0em;
+    text-align: center;
+}
 .Page-center {
     margin: auto;
     max-width: 90%;
@@ -485,9 +414,16 @@ button {
 }
 
 .about p {
-    text-align: inherit;
     width: 100%;
     font-weight: 600;
+    text-align: initial;
+  
+    margin-top: 1em;
+}
+.projects {
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 .eduaction {
     float: left;
@@ -508,6 +444,9 @@ button {
     margin-left: 0em;
     line-height: 2em;
 }
+.Graduation p {
+    margin-left: 7em;
+}
 .Certification ul {
     text-align: left;
     margin-left: 0em;
@@ -517,7 +456,6 @@ button {
 .Graduation {
     float: right;
     width: 100%;
-    text-align: initial;
     line-height: 0.8em;
 }
 .Graduation h2 {
@@ -526,53 +464,28 @@ button {
     margin-bottom: 0em;
     text-align: center;
 }
-.about p {
-    text-align: center;
-    width: 100%;
-    font-weight: 600;
-}
+
 .hobbies {
     float: left;
     width: 100%;
     font-weight: 600;
 }
-.h-img {
+.services {
     float: left;
     width: 100%;
-    margin-left: 0em;
+    text-align: center;
 }
-.h-cont {
+.whaticando p {
+    width: 60%;
+    text-align: center;
+    padding-left: 6.5em;
+}
+.Tech {
     float: right;
     width: 100%;
     text-align: center;
 }
-.skills {
-    float: left;
-    width: 100%;
-    background-color: #c4e0e5;
-    font-family: poppins;
-    padding-top: 0em;
-    height: 100vh;
-    font-weight: 600;
-}
-.img-skill {
-    height: 100vh;
-    width: 100%;
-    float: left;
-    background-color: #c4e0e5;
-}
-.div-mb {
-    width: 100%;
-    float: left;
-    background-color: #c4e0e5;
-    text-align: center;
-}
-.div-im2{
-    float: left;
-    width: 100%;
-    background-color: #c4e0e5;
-    text-align: center;
-}
+
 .Contact {
     float: left;
     width: 100%;
@@ -582,28 +495,12 @@ button {
     padding-top: 2em;
     text-align: center;
     position: relative;
-    margin-top: 183vh;
 }
-.htmlsvg {
-    float: left;
-    width: 67%;
+.Graduation ul {
+    margin-left: 4em;
+    line-height: 2em;
+}
 
-}
-.csssvg {
-    float: left;
-    width: 83%;
-    
-}
-.bssvg {
-    float: right;
-    width: 95%;
-   
-}
-.jssvg {
-    float: left;
-    width: 89%;
-   
-}
 .bgColor {
     background-color: black;
 }
@@ -622,149 +519,13 @@ button {
     width: 100%;
     text-align: center;
 }
-    /* video.video {
-        position: fixed;
-        z-index: -1;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        right: 0;
-        object-fit: cover;
-    }
-
-    .navbar-L {
-        float: left;
-        width: 100%;
-    }
-    .navbar-R {
-    float: right;
-    width: 100%;
-}
-.about {
-    margin-top: 120vh;
-    width: 100%;
-    float: left;
-    text-align: center;
-    background: white;
-    font-family: 'Poppins';
-}
-.Certification ul {
-    text-align: inherit;
-}
-.Certification {
-    float: left;
-    width: 100%;
+img.img-sc {
+    width: 50%;
+    border: solid 1px white;
+    border-radius: 20px;
     margin-left: 0em;
 }
-.eduaction {
-    float: left;
-    width: 100%;
-    font-weight: 600;
-}
-.Graduation {
-    float: right;
-    width: 70%;
-    line-height: 0.8em;
-    text-align: initial;
-}
-
-.about p {
-  
-    width: 100%;
-    font-weight: 600;
-}
-.h-img {
-    float: left;
-    width: 100%;
-    margin-left: 0em;
     
-}
-.h-cont {
-    float: right;
-    width: 100%;
-    text-align: center;
-}
-.skills {
-    float: left;
-    width: 100%;
-    background-color: #c4e0e5;
-    font-family: poppins;
-    padding-top: 2em;
-    font-weight: 600;
-}
-.skills-ex {
-    width: 100%;
-    float: left;
-    text-align: center;
-}
-
-.Contact {
-    float: left;
-    width: 100%;
-    font-family: poppins;
-    background-color: black;
-    color: white;
-    padding-top: 2em;
-    text-align: center;
-    position: relative;
-    margin-top: 230vh;
-}
-.phone {
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-.email {
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-.address {
-    float: right;
-    width: 100%;
-    text-align: center;
-}
-.img-skill {
-    width: 100%;
-    float: left;
-    background-color: #c4e0e5;
-   height:100vh;
-}
-.htmlsvg {
-    float: left;
-    width: 75%;
-
-}
-.csssvg {
-    float: left;
-    width: 84%;
-    
-}
-.bssvg {
-    float: right;
-    width: 100%;
-   
-}
-.jssvg {
-    float: left;
-    width: 87%;
-   
-}
-.div-mb {
-    width: 100%;
-    float: left;
-    background-color: #c4e0e5;
-    text-align: center;
-}
-.div-im2{
-    float: left;
-    width: 100%;
-    background-color: #c4e0e5;
-    text-align: center;
-}
-
- */
 
 
 
