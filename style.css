@@ -401,6 +401,14 @@ button {
     background: white;
     font-family: 'Poppins';
 }
+skills {
+    float: left;
+    width: 100%;
+    background-color: white;
+    font-family: poppins;
+    
+    font-weight: 600;
+}
 .skills p {
     margin-left: 0em;
     text-align: center;
@@ -445,7 +453,7 @@ button {
     line-height: 2em;
 }
 .Graduation p {
-    margin-left: 7em;
+    text-align: center;
 }
 .Certification ul {
     text-align: left;
